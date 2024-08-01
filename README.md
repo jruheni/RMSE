@@ -10,12 +10,13 @@ By performing train-test splits with different ratios, we can observe how the mo
 ## Results
 By observing the RMSE values for each train-test split ratio, we can evaluate the model's performance under different conditions:
 
-Size	RMSE
-Default	4.160742885627115
-50:50	4.3948122242876
-80:20	4.012353566125973
-75:25	4.160742885627115
-90:10	3.6657752651313316
+| Size    | RMSE               |
+|---------|--------------------|
+| Default | 4.160742885627115  |
+| 50:50   | 4.3948122242876    |
+| 80:20   | 4.012353566125973  |
+| 75:25   | 4.160742885627115  |
+| 90:10   | 3.6657752651313316 |
 
 The results indicate that the RMSE varies slightly across different train-test splits. The lowest RMSE of 3.6658 is achieved with a 90:10 split, suggesting that using more training data improves the model's prediction accuracy. Conversely, the highest RMSE of 4.3948 occurs with a 50:50 split, indicating that the model performs less accurately when less data is available for training.
 
