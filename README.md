@@ -1,4 +1,4 @@
-# Train-Test Split Assignment
+# Linear Regression with Different Tet-Train Splits & RMSE Analysis
 ## Description
 
 The objective of this assignment is to evaluate the performance of a linear regression model on a historical temperature dataset of New York City using different train-test split ratios. By experimenting with various split ratios, we aim to understand the impact of training data size on the model’s prediction accuracy.
